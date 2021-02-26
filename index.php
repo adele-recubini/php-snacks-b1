@@ -6,32 +6,29 @@ Olimpia Milano - Cantù | 55 - 60 -->
 <?php
 
 
-
-
-
 $matches = [
   "matchOne" =>  [
-  "casa" => "milano",
-  "ospite" => "bergamo",
-  "puntiCasa" => 70,
-  "puntiOspite" => 80,
+  "casa" => "Olimpia Milano",
+  "ospite" => "Cantu",
+  "puntiCasa" => 30,
+  "puntiOspite" => 40,
 ],
   "matchTwo"  =>[
- "casa" => "milano",
- "ospite" => "bergamo",
- "puntiCasa" => 70,
+ "casa" => "Olimpia Milano",
+ "ospite" => "cantu",
+ "puntiCasa" => 100,
  "puntiOspite" => 80,
 ],
    "matchThree" =>[
- "casa" => "milano",
- "ospite" => "bergamo",
- "puntiCasa" => 70,
- "puntiOspite" => 80,
+ "casa" => "cantu",
+ "ospite" => "Olimpia Milano",
+ "puntiCasa" => 3,
+ "puntiOspite" => 200,
 ],
 
 ];
 
-echo $matches["matchOne"]["casa"];
+echo $matches["matchOne"]["casa"] . '-' .  $matches["matchOne"]["ospite"] . $matches["matchOne"]["puntiCasa"] . '|'. $matches["matchOne"]["puntiOspite"];
 
 
  ?>

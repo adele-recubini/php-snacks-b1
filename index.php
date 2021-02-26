@@ -27,7 +27,7 @@ $matches = [
 ],
 
 ];
-for ($i=0; $i < count($matches) ; $i++) {
+for ($i=0; $i < count($matches); $i++) {
   echo $matches[$i]["casa"] . '-' .  $matches[$i]["ospite"] . $matches[$i]["puntiCasa"] . '|'. $matches[$i]["puntiOspite"];
 }
 

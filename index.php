@@ -7,19 +7,19 @@ Olimpia Milano - Cantù | 55 - 60 -->
 
 
 $matches = [
-  "matchOne" =>  [
+  [
   "casa" => "Olimpia Milano",
   "ospite" => "Cantu",
   "puntiCasa" => 30,
   "puntiOspite" => 40,
 ],
-  "matchTwo"  =>[
+[
  "casa" => "Olimpia Milano",
  "ospite" => "cantu",
  "puntiCasa" => 100,
  "puntiOspite" => 80,
 ],
-   "matchThree" =>[
+[
  "casa" => "cantu",
  "ospite" => "Olimpia Milano",
  "puntiCasa" => 3,
